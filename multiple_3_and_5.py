@@ -4,7 +4,7 @@
 
 sum = 0
 
-for multiples in range(1001):
+for multiples in range(1000):
     if multiples % 3 == 0 or multiples % 5 == 0:
         sum = sum + multiples    
 print(sum)
